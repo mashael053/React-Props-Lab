@@ -1,9 +1,9 @@
 .div-big{
-    text-align: center;
-    border: 1px solid black;
+    text-align: center; 
+    /* border: 1px solid black;
     border-radius: 25px;
     margin: 20px;
-    width: 50%;
+    width: 50%; */
     background-color: rgb(247, 247, 247);
 }
 .language{
@@ -14,4 +14,4 @@
 
 .name{
     color:rgba(165, 42, 42, 0.733);
-}
+} 

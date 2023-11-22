@@ -1,5 +1,11 @@
 import '../Style/Programmer.css'
-function Programers(props) {
+
+
+import Programms from '..Component/Programms'
+import Service from '../Component/Service'
+import Company from '..Component/Company'
+
+function Programms(props) {
   return (
     <div className='div-big'>
         <h1 className='name'>{props.name}</h1>
@@ -11,4 +17,4 @@ function Programers(props) {
   )
 }
 
-export default Programers 
+export default Programms 

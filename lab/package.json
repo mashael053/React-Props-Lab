@@ -1,13 +1,13 @@
 {
-  "name": "clear",
+  "name": "lab",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
-   "scripts": {
-  "start": "BROWSER=firefox react-scripts start",
-  "build": "react-scripts build && sw-precache --config=sw-precache-config.js",
-  "test": "react-scripts test --env=jsdom",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
